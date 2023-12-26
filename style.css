@@ -19,7 +19,7 @@ input:focus {
 }
 
 form:focus-within {
-  outline: 1px solid blue;
+  outline: .1rem solid blue;
 }
 
 #container {
@@ -34,7 +34,7 @@ form:focus-within {
   display: flex;
   align-items: end;
   margin: 0;
-  font-size: 30px;
+  font-size: 1.9rem;
   text-shadow: .05rem .05rem gray;
 }
 
@@ -47,37 +47,37 @@ form:focus-within {
 #enter-value,
 #submit {
   border: none;
-  border-radius: 5px;
-  height: 30px;
+  border-radius: .3rem;
+  height: 1.9rem;
 }
 
 #enter-value {
   padding: 0;
-  width: 160px;
+  width: 10rem;
   text-align: center;
   flex-grow: 2;
-  padding-right: 20px;
+  padding-right: 1.25rem;
 }
 
 #submit {
-  width: 65px;
+  width: 4rem;
   color: #fff;
   background-color: #2778DB;
-  margin-left: -20px;
+  margin-left: -1.25rem;
 }
 
 #results {
   display: flex;
   margin: 0 auto;
-  height: 100px;
-  width: 225px;
-  line-height: 5em;
+  height: 6.25rem;
+  width: 14.0625rem;
+  line-height: 1rem;
   border: none;
-  border-radius: 5px;
+  border-radius: .3rem;
   background-color: #fff;
 }
 
 #text-box {
   margin: auto;
-  font-size: 2em;
+  font-size: 2rem;
 }
